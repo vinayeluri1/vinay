@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <style type="text/css">
+    .container ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px;
+      float: right;
+    }
+    .navbar-dark .navbar-nav .navbar-item #k{
+             text-color: #f8f9fa;
+
+    }
+    
+    
+  * {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 35%;
+  padding: 80px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul{
+  list-style-type: none;
+}
+  </style>
+</head>
+<body>
+	
+<nav class="container">
+  <div><table width="100%">
+    <tr>
+      <td>
+           <img class="b" src="img/image.png">
+           </td>
+           <td>
+               <ul>
+                   
+                   <li><a href="#"><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo"><i class="fa fa-search" style="font-size: 16px;"></i></button>
+        <div id="demo" class="collapse">
+        <input type='text' placeholder='Search...' id='search-text-input' />
+        </div></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" style="font-size:26px;color:red"></i></a></li>
+        
+            </ul>
+            
+            <ul>    
+                <li><a href="#"x><h6>Login</h6></a></li>
+                <li><a href="#"><h6>About us</h6></a></li>
+                <li><a href="#"><h6>Knowledge librery</h6></a></li>
+             
+            </ul>
+          </td>
+        </tr>
+      </table>
+       
+
+        </nav>
+        <nav class="container">
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" id="k" href="#">Logal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Corporate</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Healthcare</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Government</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tax</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">International</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">International</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">International</a>
+              </li>
+            </ul>
+          </nav>
+        </nav>
+        
+          
+</div>
+</nav>
+       
+       
+<div class="clearfix">
+  <div class="box" style="background-color:white">
+   <div class="c">
+            <ul class="v">
+              <li><p><h3>Marketing Pages</h3></p></li>
+              <li><p><b>DELIVERY 1</b></p></li>
+              <li>Style gaid</li>
+               <li>Home Page</li>
+              <li>Home Page - Logged In</li>
+              <li>404 Page</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+               <li><p><b>DELIVERY 2</b></p></li>
+              <li>Store Page</li>
+              <li>Store Page (No search results)</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+               <li><p><b>DELIVERY 3</b></p></li>
+              <li>Market Segment Page</li>
+              <li>Practice Area Page</li>
+               <li>SEO Landing Page</li>
+             </ul>
+           </div>
+           <div>
+            <ul>
+              <li><p><b>DELIVERY 4</b></p></li>
+              <li>Solutions Page</li>
+               <li>Product Detail - Transactional</li>
+              <li>Product Detail - Digital</li>
+              <li>Product Detail - Digital - Practice Area</li>
+               <li>Product Detail - Digital - Product Suite</li>
+                <li>Product Detail - Digital - DRS</li>
+                 <li>Product Detail - Digital - DRS - Practice Area</li>
+                  
+            </ul>
+          </div>
+          <div>
+            <ul>
+               <li><p><b>DELIVERY 5</b></p></li>
+              <li>Knowledge Library</li>
+               <li>Knowledge Library (No search results)</li>
+               <li>Knowledge Library- Detail</li>
+                <li>Knowledge Library- Detail (Gated Content)</li>
+                <li>About WK</li>
+               <li>Contact WK</li>
+               <li>Standard Interior Page</li>
+                <li>Standard Interior Page (No Sidebar)</li>
+                <li>Experts Landing Page</li>
+               <li>Expert Detail Page</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+               <li><p><b>DELIVERY 6</b></p></li>
+              <li>Training & Support</li>
+              <li>Training & Support Detail Page</li>
+               <li>Events Calendar</li>
+               <li>Event Detail</li>
+              <li>Event Detail (Conference)</li>
+               <li>Press Releases</li>
+               <li>Press Release Detail</li>
+              <li>Search Results</li>
+               <li><a href="#"> Search Results (No Results)</a></li>
+               <li><a href="#"> Sitemap</a></li>
+              <li><a href="#"> Campaign Landing</a></li>
+             </ul>
+           </div>
+           <div>
+            <ul>
+              <li><p><b>DELIVERY 7</b></p></li>
+              <li><a href="#"> Advisory Council</a></li>
+               
+            </ul>
+
+          </div>
+  </div>
+  <div class="box" style="background-color:white">
+  <div class="-temp-right">
+            <div>
+            <ul class="v">
+                              
+              <li><p><h3>Marketing Pages</h3></p></li>
+              <li><p><b>DELIVERY 1</b></p></li>
+              <li>Style gaid</li>
+               <li>Home Page</li>
+              <li>Home Page - Logged In</li>
+              <li>404 Page</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+               <li><p><b>DELIVERY 2</b></p></li>
+              <li>Store Page</li>
+              <li>Store Page (No search results)</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+               <li><p><b>DELIVERY 3</b></p></li>
+              <li>Market Segment Page</li>
+              <li>Practice Area Page</li>
+               <li>SEO Landing Page</li>
+             </ul>
+           </div>
+           <div>
+            <ul>
+              <li><p><b>DELIVERY 4</b></p></li>
+              <li>Solutions Page</li>
+               <li>Product Detail - Transactional</li>
+              <li>Product Detail - Digital</li>
+              <li>Product Detail - Digital - Practice Area</li>
+               <li>Product Detail - Digital - Product Suite</li>
+                <li>Product Detail - Digital - DRS</li>
+                 <li>Product Detail - Digital - DRS - Practice Area</li>
+                
+            </ul>
+          </div>
+        
+          </div>
+  </div>
+  
+</div>
+</div>
+
+<footer class="container">
+  
+  
+</footer>
+
+</body>
+</html>
